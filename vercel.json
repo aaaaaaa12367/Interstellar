@@ -1,9 +1,9 @@
 {
-  "redirects": [
+  "version": 2,
+  "rewrites": [
     {
-      "source": "/",
-      "destination": "https://tinyurl.com/gameshggyrj",
-      "permanent": true
+      "source": "/:path*",
+      "destination": "https://tinyurl.com/gameshggyrj"
     }
   ]
 }
